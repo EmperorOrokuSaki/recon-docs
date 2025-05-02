@@ -40,7 +40,7 @@ Click the "Generate Tests" button to create Foundry test functions based on your
 Copy the generated test functions and paste them into your Foundry test file. These tests will reproduce the exact conditions that caused your properties to fail.
 
 ### Technical Implementation
-The web tool is built on top of the [Pog Parser](https://github.com/Recon-Fuzz/log-parser) package, which provides specialized functions for processing Medusa logs:
+The web tool is built on top of the [Log Parser](https://github.com/Recon-Fuzz/log-parser) package, which provides specialized functions for processing Medusa logs:
 
 - **Log Processing:** Uses `processLogs()` with Fuzzer.MEDUSA to extract information from raw logs
 
